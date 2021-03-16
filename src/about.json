@@ -1,0 +1,71 @@
+[{
+    "client ": {
+        "host":  "10.101.53.35"
+    }
+}, {
+    "server ": {
+        "current_time ":  1531680780 ,
+        "services ": [{
+            "name": "weather",
+            "widgets ": [{
+                "name": "city_weather",
+                "description ": "Display weather and temperature of a city",
+                "params ": [{
+                    "name": "city",
+                    "type": "string"}]
+            }]
+        }, {
+            "name": "movie",
+            "widgets ": [{
+                "name": "movie information searcher",
+                "description ": "Displaying information about a movie",
+                "params ": [{
+                    "name": "movie_name",
+                    "type": "string"
+                }]
+            }]
+        } , {
+            "name": "lyrics",
+            "widgets ": [{
+                "name": "music lyrics searcher",
+                "description ": "Displaying lyrics of a song",
+                "params ": [{
+                    "name": "song title",
+                    "type": "string"
+                }, {
+                    "name": "artist",
+                    "type": "string"
+                }]
+            }]
+        } , {
+            "name": "game",
+            "widgets ": [{
+                "name": "game info searcher",
+                "description ": "Displaying information about a game",
+                "params ": [{
+                    "name": "game_name",
+                    "type": "string"
+                }]
+            }],
+            "widgets ": [{
+                "name": "Top 20 games of year",
+                "description ": "Displaying the 20 most popular game of the given year",
+                "params ": [{
+                    "name": "year",
+                    "type": "string"
+                }]
+            }]
+        } , {
+            "name": "marijuana",
+            "widgets ": [{
+                "name": "strain searcher",
+                "description ": "Displaying all strain that have the given effect",
+                "params ": [{
+                    "name": "strain_effect",
+                    "type": "string"
+                }]
+            }]
+        }]
+    }
+    }
+]

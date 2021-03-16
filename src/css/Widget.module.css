@@ -1,0 +1,14 @@
+/*
+** EPITECH PROJECT, 2020
+** B-DEV-500-PAR-5-1-cardgames-lucas.guyader
+** File description:
+** Widget.module.css
+*/
+
+.root {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
